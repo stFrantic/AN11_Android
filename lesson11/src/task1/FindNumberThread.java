@@ -1,13 +1,13 @@
 package task1;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 public class FindNumberThread extends Thread {
 
-    List<Integer> array = new ArrayList<Integer>();
-    boolean isMax;
-    int temp;
+    private final List<Integer> array;
+    private final boolean isMax;
+    private int temp;
 
     public FindNumberThread(List<Integer> array, boolean isMax) {
         this.array = array;
