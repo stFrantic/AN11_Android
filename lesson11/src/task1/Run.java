@@ -1,10 +1,9 @@
 package task1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
-import java.util.regex.Pattern;
+
 
 public class Run {
     public static int enterInt(boolean isArrayLength) {
@@ -31,7 +30,7 @@ public class Run {
         System.out.println("Enter array length");
         int n = enterInt(true);
 
-        List<Integer> array = new ArrayList<Integer>();
+        List<Integer> array = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             array.add(enterInt(false));
         }
@@ -52,7 +51,7 @@ public class Run {
         int max = t1.getNumber();
         int min = t2.getNumber();
         System.out.println("Max element: " + max);
-        System.out.println("Min element: " + min)
+        System.out.println("Min element: " + min);
  
     }
 }
